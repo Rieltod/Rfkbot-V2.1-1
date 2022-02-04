@@ -11,14 +11,14 @@
 // thank you to ALL Bot creator
 // and thanks you to who support my Bot
 
-gc1 = ''
-gc2 = ''
+gc1 = 'https://chat.whatsapp.com/BCkOrQkTa7pIORSOWyBJpk'
+gc2 = 'https://chat.whatsapp.com/GzDQlgoUamS5Ok4EOcYRRB'
 gc3 = ''
-global.linkGC = ['https://chat.whatsapp.com/HJ9pD2XJ8vq7whuAYOvT1Y', ''] // ganti jadi group lu
-global.owner = ['+1 (775) 403-5736','6289505165400'] // Put your number here //owner eval
-global.kontak = ['+1 (775) 403-5736','6289505165400'] //Ketika ada yang ngetik #owner
+global.linkGC = ['https://chat.whatsapp.com/BCkOrQkTa7pIORSOWyBJpk', 'https://chat.whatsapp.com/GzDQlgoUamS5Ok4EOcYRRB'] // ganti jadi group lu
+global.owner = ['60189830350','60149431385'] // Put your number here //owner eval
+global.kontak = ['60189830350','60149431385'] //Ketika ada yang ngetik #owner
 global.mods = ['0'] // Want some help?
-global.prems = ['+1 (775) 403-5736','6289505165400','6282287750102'] // Premium user has unlimited limit
+global.prems = ['60189830350','60149431385','6282287750102'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
@@ -34,10 +34,10 @@ global.APIs = { // API Prefix
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey' (apikey kalian)
   'https://server-api-rey.herokuapp.com': 'apirey',
-  'https://api.xteam.xyz': 'Dawnfrostkey',
-  'https://api.lolhuman.xyz': 'RFK-Rey',
+  'https://api.xteam.xyz': 'f6898e891be84fcd',
+  'https://api.lolhuman.xyz': '886e0ade87d2da2cab7f1906',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.me': 'apivinz',
+  'https://api.zeks.me': 'f6898e891be84fcd',
   'https://pencarikode.xyz': 'pais',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
@@ -49,20 +49,20 @@ xteamkey = 'Dawnfrostkey'
 namaig = 'GAK ADA :)'
 namagithub = 'GAK ADA :)'
 kasihcaption = `Nih kak`
-namakontak1 = 'AlyaaXzy 1'
-namakontak2 = 'AlyaaXzy 2'
+namakontak1 = 'LynXzy🥀'
+namakontak2 = 'BotLynXzy🥀'
 
 //kasihcaption = `Nih Kak`
 
 // Sticker WM
-global.packname = 'By AlyaaXzy' // ganti aja
-global.author = 'AlyaaXzy' // ganti aja
+global.packname = 'By LynXzy🥀' // ganti aja
+global.author = 'LynXzy🥀' // ganti aja
 
 //yyy
-bc = 'AlyaaXzy' //AlyaaXy Broadcast
-footer = '\n©AlyaaXzy'
-namabot = 'AlyaaXzy'
-namalu = 'AlyaaXzy'
+bc = 'LynXzy🥀' //LynXy Broadcast
+footer = '\n©LynXzy'
+namabot = 'BotLynXzy🥀'
+namalu = 'LynXzy🥀'
 
 
 // 
@@ -75,7 +75,7 @@ global.eror = '_*Server Error*_'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&doScale=true&scaleWidth=500&scaleHeight=500&fontsize=100&fillTextType=0&backgroundColor=%23101820&text='
 
 // Ubah saja SC dari AlyaaXzy
-global.image = 'https://telegra.ph/file/338349c86c4fcd540968b.png'//thumbnail
+global.image = 'https://telegra.ph/file/ede899da9be4d0bb0384b.jpg'//thumbnail
 
 // tingkat kesulitan, semakin tinggi semakin susah
 global.multiplier = 36 // The higher, The harder levelup
