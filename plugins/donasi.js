@@ -1,8 +1,12 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fetch(fla + 'donasi')).buffer(), `
-┌〔 Donasi • Emoney 〕
-├ PULSA : 085730903853
-├ OVO & DANA : 085730903853
+┌〔 Donasi • Pin 〕
+├ Digi🥀 : 60149431385
+├ Umobile🥀 : 60189830350
+├ 𝐆𝐑𝐎𝐔𝐏 𝐁𝐎𝐓 𝐋𝐘𝐍¹🥀
+├ https://chat.whatsapp.com/BCkOrQkTa7pIORSOWyBJpk
+├ 𝐆𝐑𝐎𝐔𝐏 𝐁𝐎𝐓 𝐋𝐘𝐍²🥀
+├ https://chat.whatsapp.com/GzDQlgoUamS5Ok4EOcYRRB
 └────
 `.trim(), footer, 'Owner', '.owner')
 handler.help = ['donasi']
