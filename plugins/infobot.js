@@ -22,9 +22,10 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╠➥ *Uptime:* ${uptime}
 ║
 ╠═〘 DONASI 〙 ═
-╠➥ GOPAY [6285730903853]
-╠➥ PULSA [6285730903853]
-║
+╠➥ DIGI [60149431385]
+╠➥ UMOBILE [60189830350]
+╠═〘 OWNER BOT 〙═
+╠➥ wa.me/60189830350
 ║
 ║${readMore}
 ╠═〘 PIRACY BOT 〙 ═
@@ -37,16 +38,20 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╠➥ *KAMI AKAN MENYIMPAN DATA*
 ║   *SEPERTI NOMER TELEPON*
 ║   *ANDA DI DATABASE KAMI*
-║ 
-║ 
+║
+╠═〘GROUP BOT¹🥀〙═
+╠➥https://chat.whatsapp.com/BCkOrQkTa7pIORSOWyBJpk
+╠═〘GROUP BOT²🥀〙═
+╠➥https://chat.whatsapp.com/GzDQlgoUamS5Ok4EOcYRRB
+║
 ╠═ ©2021 ${package.name}
-╠═ Scrip original by Norutomo
-╠═ Creator : AlyaaXzy
+╠═ Scrip original by Lan Official
+╠═ Creator : LynXzy
 ╠═ Api xsteam :St4r
 ╠═ Resta
 ╠═ Ariq
-╠═〘 AlyaaXzy 〙 ═`.trim()
-     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '©RadBotZ ⁩×͜×', 'Owner', '.owner', 'Menu', '.menu', m)
+╠═〘 LynXzy 〙 ═`.trim()
+     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '©Lan Official ⁩×͜×', 'Owner', '.owner', 'Menu', '.menu', m)
 }
 handler.help = ['infobot']
 handler.tags = ['info']
