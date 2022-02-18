@@ -31,7 +31,7 @@ const defaultMenu = {
   body: '*│*⦁ %cmd %islimit %isPremium',
   footer: '*└────⦁*\n',
   after: `
-  ⬣━〔Powered By Ashborns〕━⬣
+  ⬣━〔Powered By LynXzy 🥀〕━⬣
 
 `,
 }
@@ -232,24 +232,25 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 
-⬡ My Github : Ashborns
-⬡ IG owner : @Aryasatyaaa27
+⬡ owner : wa.me/60189830350
 ⬣━〔  Ω∞∞∞«♠»∞∞∞Ω  〕━⬣
 
 
 ⬣━〔 Ω∞∞ INFO BOT ∞∞Ω 〕━⬣
-⬡ My web Rest Api : 
-⬡ https://api.ashborns.site
-⬡
-⬡ Thanks To :
+⬡ Group Official¹
+⬡ https://chat.whatsapp.com/BCkOrQkTa7pIORSOWyBJpk
+⬡ Group Official²
+⬡ https://chat.whatsapp.com/GzDQlgoUamS5Ok4EOcYRRB
+
+⬡ Thanks To ❤️:
 ⬡ My God.
 ⬡ My Parents.
-⬡ Nurutomo.
-⬡ King Of Bear.
-⬡ AlyaaXzy.
-⬡ DZ.
+⬡ LynXzy (bot)
+⬡ Exc
+⬡ Ash
+⬡ Org2 yang berdonasi
 ⬡ 
-⬣━━〔Powered By Ashborns〕━━⬣
+⬣━━〔Powered By LynXzy 🥀〕━━⬣
 `.trim(),
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
