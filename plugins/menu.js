@@ -16,21 +16,23 @@ const defaultMenu = {
 │⬡ [%xp4levelup]
 │⬡ %totalexp XP secara Total
 │ 
-│⬡ Tanggal: *%week %weton, %date*
+│⬡ Hari: *%week %weton*
+│⬡ Tanggal: *%date*
 │⬡ Tanggal Islam: *%dateIslamic*
 │⬡ Waktu: *%time*
 │
 │⬡ Uptime: *%uptime (%muptime)*
 │⬡ Database: %rtotalreg dari %totalreg
-│⬡ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+│⬡ Memory Used : 
+│⬡ ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ╰────────────⬣
 %readmore`.trimStart(),
   header: '*┌──〔 %category〕*',
   body: '*│*⦁ %cmd %islimit %isPremium',
   footer: '*└────⦁*\n',
   after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
+  ⬣━〔Powered By Ashborns〕━⬣
+
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -217,16 +219,43 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       }
     })
     if (teks == '404') {
-			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
-                    "listMessage":  {
-                        "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `©LynXzy`.trim(),
-                        "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
-                        "buttonText": "*Click Here*",
-                        "listType": "SINGLE_SELECT",
-                        "sections": [
-                            {
-                                "rows": [{
+      return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
+        "listMessage": {
+          "title": `${ucapan()}, ${name}`.trim(),
+          "description": `
+⬣━〔 ∞∞ INTERFACE ∞∞ 〕━⬣
+⬡ Aktif selama ${uptime}
+⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+⬡ *${Object.keys(global.db.data.users).length}* Pengguna
+⬡ *${totaljadibot.length}* Jadibot
+⬡ *${conn.blocklist.length}* Terblock
+⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
+⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
+
+⬡ My Github : Ashborns
+⬡ IG owner : @Aryasatyaaa27
+⬣━〔  Ω∞∞∞«♠»∞∞∞Ω  〕━⬣
+
+
+⬣━〔 Ω∞∞ INFO BOT ∞∞Ω 〕━⬣
+⬡ My web Rest Api : 
+⬡ https://api.ashborns.site
+⬡
+⬡ Thanks To :
+⬡ My God.
+⬡ My Parents.
+⬡ Nurutomo.
+⬡ King Of Bear.
+⬡ AlyaaXzy.
+⬡ DZ.
+⬡ 
+⬣━━〔Powered By Ashborns〕━━⬣
+`.trim(),
+          "buttonText": "Klik Disini",
+          "listType": "SINGLE_SELECT",
+          "sections": [
+            {
+              "rows": [{
                                     "title": "Status Bot",
                                     "description": "Status dan informasi Bot.",
                                     "rowId": ".botstatus"
@@ -237,9 +266,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 }, {
                                     "title": "Sewa bot - Premium",
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
-                                    "rowId": ".sewabot"
+                                    "rowId": ".sewa"
                                 }],
-                                "title": "⟣─────────❲ Tentang Bot dan lainnya ❳──────────⟢"
+                                "title": "⟣──────❲ Tentang Bot dan lainnya ❳───────⟢"
                             }, {
                                 "rows": [{
                                     "title": `[🧾| Semua Perintah`,
@@ -358,11 +387,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "Menu Khusu Owner",
                                     "rowId": ".? owner"
                                 }],
-                                "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
+                                "title": "⟣───────────❲  All-Menu  ❳───────────⟢"
                             }, {
                                 "rows": [{
                                     "title": "Owner bot",
-                                    "description": "pemilik LynXzy",
+                                    "description": "pemilik Ashborns",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "Donasi",
@@ -377,7 +406,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "Terima kasih banyak untuk user yang telah berpartisipasi dalam bot",
                                     "rowId": ".tqto"
                                 }],
-                                "title": "⟣──────────────❲ Penutup ❳───────────────⟢"
+                                "title": "⟣───────────❲ Penutup ❳────────────⟢"
                             }
                         ], "contextInfo": 
 						{ "stanzaId": m.key.id,
