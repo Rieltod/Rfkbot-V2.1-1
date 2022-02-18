@@ -57,6 +57,8 @@ namakontak2 = 'BotLynXzy🥀'
 // Sticker WM
 global.packname = 'By LynXzy🥀' // ganti aja
 global.author = 'LynXzy🥀' // ganti aja
+global.watermark = 'lynXzy🥀'
+global.wm = 'LynXzy🥀'
 
 //yyy
 bc = 'LynXzy🥀' //LynXy Broadcast
