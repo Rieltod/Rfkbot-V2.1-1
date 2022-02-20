@@ -223,49 +223,37 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": `
-⬣━〔 ∞∞ INTERFACE ∞∞ 〕━⬣
+⬣━〔 ∞∞ INFOBOT ∞∞ 〕━⬣
 ⬡ Aktif selama ${uptime}
 ⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ⬡ *${Object.keys(global.db.data.users).length}* Pengguna
 ⬡ *${totaljadibot.length}* Jadibot
 ⬡ *${conn.blocklist.length}* Terblock
 ⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
-⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
+⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Ter
 
-⬡ owner : wa.me/60189830350
-⬣━〔  Ω∞∞∞«♠»∞∞∞Ω  〕━⬣
-
-
-⬣━〔 Ω∞∞ INFO BOT ∞∞Ω 〕━⬣
+⬣━〔 Ω∞∞ GROUP BOT ∞∞Ω 〕━⬣
 ⬡ Group Official¹
 ⬡ https://chat.whatsapp.com/BCkOrQkTa7pIORSOWyBJpk
 ⬡ Group Official²
 ⬡ https://chat.whatsapp.com/GzDQlgoUamS5Ok4EOcYRRB
 
-⬡ Thanks To ❤️:
-⬡ My God.
-⬡ My Parents.
-⬡ LynXzy (bot)
-⬡ Exc
-⬡ Ash
-⬡ Org2 yang berdonasi
-⬡ 
-⬣━━〔Powered By LynXzy 🥀〕━━⬣
+⬣━〔Powered By LynXzy〕━⬣
 `.trim(),
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
               "rows": [{
-                                    "title": "Status Bot",
+                                    "title": "|⚙️|Status Bot",
                                     "description": "Status dan informasi Bot.",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "Rules",
+                                    "title": "|❗|Rules",
                                     "description": "User yang bijak selalu mematuhi Rules.",
                                     "rowId": ".rules"
                                 }, {
-                                    "title": "Sewa bot - Premium",
+                                    "title": "|👑|Sewa bot - Premium",
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
                                     "rowId": ".sewa"
                                 }],
@@ -391,19 +379,19 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 "title": "⟣───────────❲  All-Menu  ❳───────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": "Owner bot",
+                                    "title": "|👤|Owner bot",
                                     "description": "pemilik Ashborns",
                                     "rowId": ".owner"
                                 }, {
-                                    "title": "Donasi",
+                                    "title": "|💰|Donasi",
                                     "description": "Jangan lupa donasi untuk mendukung bot agar aktif selalu",
                                     "rowId": ".donasi"
                                 }, {
-                                    "title": "Kata penutup",
+                                    "title": "|💌|𝐊𝐀𝐓𝐀 𝐏𝐄𝐍𝐔𝐓𝐔𝐏",
                                     "description": "Terimakasih untuk user yang telah menggunakan bot, jika ada kesalahan atau permintaan bisa chat ke nomor owner\nNote: chat P/main² tidak akan di respon(user bisa terkena banned/block)",
                                     "rowId": ".creator"
                                 }, {
-                                    "title": "Thanks To |🎖️|",
+                                    "title": "|❤️|𝐓𝐇𝐀𝐍𝐊𝐒 𝐓𝐎",
                                     "description": "Terima kasih banyak untuk user yang telah berpartisipasi dalam bot",
                                     "rowId": ".tqto"
                                 }],
