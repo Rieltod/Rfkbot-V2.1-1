@@ -6,7 +6,7 @@ let handler = async(m, { conn }) => {
 ├ 2 Bulan
 ├ 1 Bulan
 ├ 1 Minggu
-├ 3 hari
+├ 1 hari
 └────
 Silahkan klik pada "List Harga" untuk melihat list.
 
@@ -18,10 +18,10 @@ Topup(Digi): 60149431385
         buttonText: 'List Harga',
         description: kamisato,
         sections:  [{title: "Silahkan di pilih", rows: [
-        {title: '2 Bulan', description: "Rm30.00\nSewa bot tanpa batasan waktu.", rowId:".masuk"},
-        {title: '1 Bulan', description: "Rm25.00\nSewa bot selama 1 bulan.", rowId:".masuk"},
-        {title: '1 Minggu', description: "Rm15.00\nSewa bot selama 1 minggu.", rowId:".masuk"},
-        {title: '3 hari', description: "Rm5.00\nSewa bot selama 3 hari.", rowId:".masuk"},
+        {title: '2 Bulan', description: "Rm30.00\nSewa bot tanpa batasan waktu.", rowId:".owner"},
+        {title: '1 Bulan', description: "Rm25.00\nSewa bot selama 1 bulan.", rowId:".owner"},
+        {title: '1 Minggu', description: "Rm15.00\nSewa bot selama 1 minggu.", rowId:".owner"},
+        {title: '1 hari', description: "Rm5.00\nSewa bot selama 3 hari.", rowId:".owner"},
         {title: 'Owner', description: "Chat owner nya jika ada perlu.", rowId:".owner"},
         {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan.", rowId:".rules"},
        ] }],
