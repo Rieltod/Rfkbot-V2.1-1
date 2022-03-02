@@ -43,7 +43,7 @@ handler.all = async function (m, { isBlocked }) {
 ║
 ╠═ © LanXzy & LynXzy
 ╠═ Scrip original by Nurutomo
-╠═〘 ${namabot} 〙 ═`.trim(), footer, 'Dana', '#viadana', 'GoPay', '#viagopay', m)
+╠═〘 ${namabot} 〙 ═`.trim(), footer, 'Digi', '#viadigi', 'Umobile', '#viaumobile', m)
 }
 
     // salam
