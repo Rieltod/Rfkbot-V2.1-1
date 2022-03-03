@@ -10,6 +10,6 @@ let handler = async (m, { conn }) => {
 ╠═〘 ${namabot} 〙 ═`.trim(), m)
 }
 
-handler.command = /^viadana$/i
+handler.command = /^viadigi$/i
 
 module.exports = handler
