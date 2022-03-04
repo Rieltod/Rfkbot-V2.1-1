@@ -3,7 +3,7 @@ let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
     let kamisato = `
 ┌〔 List Berlangganan 〕
-├ 2 Bulan
+├ 2 Bulan 
 ├ 1 Bulan
 ├ 1 Minggu
 ├ 1 hari
@@ -11,17 +11,17 @@ let handler = async(m, { conn }) => {
 Silahkan klik pada "List Harga" untuk melihat list.
 
 Pembayaran:
-Topup(Umobile): 60189830350
-Topup(Digi): 60149431385
+Pulsa axis: 083813417529
+axis ngab
 `.trim()
     const button = {
         buttonText: 'List Harga',
         description: kamisato,
         sections:  [{title: "Silahkan di pilih", rows: [
-        {title: '2 Bulan', description: "Rm25.00\nSewa bot tanpa batasan waktu.", rowId:".owner"},
-        {title: '1 Bulan', description: "Rm20.00\nSewa bot selama 1 bulan.", rowId:".owner"},
-        {title: '1 Minggu', description: "Rm5.00\nSewa bot selama 1 minggu.", rowId:".owner"},
-        {title: '1 hari', description: "Rm0.00\nFree 1 hari.", rowId:".owner"},
+        {title: '2 Bulan', description: "Rp25.000\nSewa bot tanpa batasan waktu.", rowId:".owner"},
+        {title: '1 Bulan', description: "Rp20.000\nSewa bot selama 1 bulan.", rowId:".owner"},
+        {title: '1 Minggu', description: "Rp5.000\nSewa bot selama 1 minggu.", rowId:".owner"},
+        {title: '1 hari', description: "Rp0.000\nFree 1 hari.", rowId:".owner"},
         {title: 'Owner', description: "Chat owner nya jika ada perlu.", rowId:".owner"},
         {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan.", rowId:".rules"},
        ] }],
